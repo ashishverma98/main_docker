@@ -1,0 +1,5 @@
+2022-05-25 16:30:36,617 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2022-05-25 16:30:36,769 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2022-05-25 16:30:37,081 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2022-05-25 16:31:24,292 INFO scheduler Scheduled Job Start: core_erp.customization.lead.Notify for site1.local
+2022-05-25 16:31:24,643 INFO scheduler Scheduled Job Complete: core_erp.customization.lead.Notify for site1.local

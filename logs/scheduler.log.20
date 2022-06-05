@@ -1,0 +1,7 @@
+2022-05-25 11:26:22,242 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2022-05-25 11:26:22,456 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2022-05-25 11:26:22,843 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2022-05-25 11:26:22,976 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2022-05-25 11:26:23,425 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2022-05-25 11:26:23,613 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2022-05-25 11:26:24,052 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local

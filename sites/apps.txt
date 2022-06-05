@@ -1,0 +1,3 @@
+frappe
+erpnext
+core_erp

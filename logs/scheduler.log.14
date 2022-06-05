@@ -1,0 +1,5 @@
+2022-05-26 13:26:34,637 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2022-05-26 13:26:34,815 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2022-05-26 13:26:35,371 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2022-05-26 13:26:35,559 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2022-05-26 13:26:35,855 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local

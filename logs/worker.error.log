@@ -1,0 +1,1991 @@
+08:07:56 RQ worker 'rq:worker:e6ee720308c7422bbd7162aa54e6ed7d.9b90f431d4da.2118.long' started, version 0.12.0
+08:07:56 *** Listening on long...
+08:07:56 Cleaning registries for queue: long
+08:07:57 RQ worker 'rq:worker:307ad105cd4d4fd7b7d7691cb7c19aac.9b90f431d4da.2119.short' started, version 0.12.0
+08:07:57 *** Listening on short...
+08:07:57 Cleaning registries for queue: short
+08:07:57 RQ worker 'rq:worker:0d44d77e4c214433999e14b56bcc3983.9b90f431d4da.2112.default' started, version 0.12.0
+08:07:57 *** Listening on default...
+08:07:57 Cleaning registries for queue: default
+08:08:58 default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'sameer@extensioncrm.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='site1.local', user='Administrator') (2439ef40-bdee-4095-8a63-d2d11abd8747)
+08:08:59 default: Job OK (2439ef40-bdee-4095-8a63-d2d11abd8747)
+08:08:59 Result is kept for 500 seconds
+08:08:59 default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'sameer@extensioncrm.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='site1.local', user='Administrator') (6e884c3c-d5b8-4d8e-9e8f-d731aa0154c2)
+08:08:59 default: Job OK (6e884c3c-d5b8-4d8e-9e8f-d731aa0154c2)
+08:08:59 Result is kept for 500 seconds
+08:10:57 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.queue.flush', kwargs={}, method='frappe.email.queue.flush', site='site1.local', user='Administrator') (69ef1eda-8997-4c51-b475-97747c81f368)
+08:10:57 short: Job OK (69ef1eda-8997-4c51-b475-97747c81f368)
+08:10:57 Result is kept for 500 seconds
+08:10:57 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.pull', kwargs={}, method='frappe.email.doctype.email_account.email_account.pull', site='site1.local', user='Administrator') (3d5680e9-aeed-492a-bf3c-824954f66867)
+08:10:57 short: Job OK (3d5680e9-aeed-492a-bf3c-824954f66867)
+08:10:57 Result is kept for 500 seconds
+08:10:57 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.notify_unreplied', kwargs={}, method='frappe.email.doctype.email_account.email_account.notify_unreplied', site='site1.local', user='Administrator') (2a9780a0-7dc4-41b7-be7a-f35d8213d1c3)
+08:10:57 short: Job OK (2a9780a0-7dc4-41b7-be7a-f35d8213d1c3)
+08:10:57 Result is kept for 500 seconds
+08:10:57 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.oauth.delete_oauth2_data', kwargs={}, method='frappe.oauth.delete_oauth2_data', site='site1.local', user='Administrator') (8bd8a694-4268-48ba-a844-af58afb5ea19)
+08:10:57 short: Job OK (8bd8a694-4268-48ba-a844-af58afb5ea19)
+08:10:57 Result is kept for 500 seconds
+08:10:57 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', kwargs={}, method='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', site='site1.local', user='Administrator') (10f49d71-d65d-4765-8055-39c68f0bc719)
+08:10:57 short: Job OK (10f49d71-d65d-4765-8055-39c68f0bc719)
+08:10:57 Result is kept for 500 seconds
+08:10:57 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.twofactor.delete_all_barcodes_for_users', kwargs={}, method='frappe.twofactor.delete_all_barcodes_for_users', site='site1.local', user='Administrator') (8380dd9d-8bbd-4e14-8e0b-c152f4eebcaf)
+08:10:58 short: Job OK (8380dd9d-8bbd-4e14-8e0b-c152f4eebcaf)
+08:10:58 Result is kept for 500 seconds
+08:10:58 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.website.doctype.web_page.web_page.check_publish_status', kwargs={}, method='frappe.website.doctype.web_page.web_page.check_publish_status', site='site1.local', user='Administrator') (50ac4975-5d53-4f1e-8a3b-cd71543015b5)
+08:10:58 short: Job OK (50ac4975-5d53-4f1e-8a3b-cd71543015b5)
+08:10:58 Result is kept for 500 seconds
+08:10:58 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.utils.global_search.sync_global_search', kwargs={}, method='frappe.utils.global_search.sync_global_search', site='site1.local', user='Administrator') (21ae347c-bb27-4b1b-8973-1a45ef05fc02)
+08:10:58 short: Job OK (21ae347c-bb27-4b1b-8973-1a45ef05fc02)
+08:10:58 Result is kept for 500 seconds
+08:10:58 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.monitor.flush', kwargs={}, method='frappe.monitor.flush', site='site1.local', user='Administrator') (442a2b09-a20b-46bb-a8ab-8754bc2130c1)
+08:10:58 short: Job OK (442a2b09-a20b-46bb-a8ab-8754bc2130c1)
+08:10:58 Result is kept for 500 seconds
+08:16:50 RQ worker 'rq:worker:e6bbfdef525c4cd0a23228093907e732.dbe81b5a4d40.355.long' started, version 0.12.0
+08:16:50 *** Listening on long...
+08:16:50 Cleaning registries for queue: long
+08:16:50 RQ worker 'rq:worker:cac1cb5a6a0147ec8356ab2ec090af1f.dbe81b5a4d40.356.short' started, version 0.12.0
+08:16:50 *** Listening on short...
+08:16:50 Cleaning registries for queue: short
+08:16:50 RQ worker 'rq:worker:f18873c1351440f8a2500b605ad50dc9.dbe81b5a4d40.353.default' started, version 0.12.0
+08:16:50 *** Listening on default...
+08:16:50 Cleaning registries for queue: default
+08:17:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.queue.flush', kwargs={}, method='frappe.email.queue.flush', site='site1.local', user='Administrator') (de9b93bd-c910-4c0a-96cf-465772e7378a)
+08:17:50 short: Job OK (de9b93bd-c910-4c0a-96cf-465772e7378a)
+08:17:50 Result is kept for 500 seconds
+08:17:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.pull', kwargs={}, method='frappe.email.doctype.email_account.email_account.pull', site='site1.local', user='Administrator') (832dd94a-65d9-4bc7-b94b-92dbe1651bd4)
+08:17:50 short: Job OK (832dd94a-65d9-4bc7-b94b-92dbe1651bd4)
+08:17:50 Result is kept for 500 seconds
+08:17:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.notify_unreplied', kwargs={}, method='frappe.email.doctype.email_account.email_account.notify_unreplied', site='site1.local', user='Administrator') (d56f945c-a247-45a2-8fa7-ab44ac5c114f)
+08:17:50 short: Job OK (d56f945c-a247-45a2-8fa7-ab44ac5c114f)
+08:17:50 Result is kept for 500 seconds
+08:17:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.oauth.delete_oauth2_data', kwargs={}, method='frappe.oauth.delete_oauth2_data', site='site1.local', user='Administrator') (ddfbcb7e-264c-496b-b812-3d96d8c63bfa)
+08:17:51 short: Job OK (ddfbcb7e-264c-496b-b812-3d96d8c63bfa)
+08:17:51 Result is kept for 500 seconds
+08:17:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', kwargs={}, method='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', site='site1.local', user='Administrator') (7e5fea63-44be-405a-81e2-c1808854d080)
+08:17:51 short: Job OK (7e5fea63-44be-405a-81e2-c1808854d080)
+08:17:51 Result is kept for 500 seconds
+08:17:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.twofactor.delete_all_barcodes_for_users', kwargs={}, method='frappe.twofactor.delete_all_barcodes_for_users', site='site1.local', user='Administrator') (aac08757-3e88-4eb1-821f-408bd7f85c28)
+08:17:51 short: Job OK (aac08757-3e88-4eb1-821f-408bd7f85c28)
+08:17:51 Result is kept for 500 seconds
+08:17:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.website.doctype.web_page.web_page.check_publish_status', kwargs={}, method='frappe.website.doctype.web_page.web_page.check_publish_status', site='site1.local', user='Administrator') (97ea2de4-5b18-4ba4-8d61-6cdd07904de1)
+08:17:51 short: Job OK (97ea2de4-5b18-4ba4-8d61-6cdd07904de1)
+08:17:51 Result is kept for 500 seconds
+08:17:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.utils.global_search.sync_global_search', kwargs={}, method='frappe.utils.global_search.sync_global_search', site='site1.local', user='Administrator') (17d99228-d390-4fdf-b6d7-2283c75dc3cf)
+08:17:51 short: Job OK (17d99228-d390-4fdf-b6d7-2283c75dc3cf)
+08:17:51 Result is kept for 500 seconds
+08:17:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.monitor.flush', kwargs={}, method='frappe.monitor.flush', site='site1.local', user='Administrator') (f46656c8-5fb3-42a8-8a73-1679173aa4c8)
+08:17:51 short: Job OK (f46656c8-5fb3-42a8-8a73-1679173aa4c8)
+08:17:51 Result is kept for 500 seconds
+08:18:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.queue.flush', kwargs={}, method='frappe.email.queue.flush', site='site1.local', user='Administrator') (17e6091a-6283-4af8-8722-36c44bc057a7)
+08:18:50 short: Job OK (17e6091a-6283-4af8-8722-36c44bc057a7)
+08:18:50 Result is kept for 500 seconds
+08:18:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.pull', kwargs={}, method='frappe.email.doctype.email_account.email_account.pull', site='site1.local', user='Administrator') (4ef52d58-ca0d-4d82-ae5e-0b1c67ad7e29)
+08:18:50 short: Job OK (4ef52d58-ca0d-4d82-ae5e-0b1c67ad7e29)
+08:18:50 Result is kept for 500 seconds
+08:18:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.notify_unreplied', kwargs={}, method='frappe.email.doctype.email_account.email_account.notify_unreplied', site='site1.local', user='Administrator') (e51de1a9-c70a-4149-aba9-0ed056b935a8)
+08:18:50 short: Job OK (e51de1a9-c70a-4149-aba9-0ed056b935a8)
+08:18:50 Result is kept for 500 seconds
+08:18:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.oauth.delete_oauth2_data', kwargs={}, method='frappe.oauth.delete_oauth2_data', site='site1.local', user='Administrator') (df0d3673-6bdd-4d91-8c21-1fb7e15b2c42)
+08:18:50 short: Job OK (df0d3673-6bdd-4d91-8c21-1fb7e15b2c42)
+08:18:50 Result is kept for 500 seconds
+08:18:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', kwargs={}, method='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', site='site1.local', user='Administrator') (5ef5e440-e90b-4f85-ab4a-c63085547c99)
+08:18:50 short: Job OK (5ef5e440-e90b-4f85-ab4a-c63085547c99)
+08:18:50 Result is kept for 500 seconds
+08:18:50 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.twofactor.delete_all_barcodes_for_users', kwargs={}, method='frappe.twofactor.delete_all_barcodes_for_users', site='site1.local', user='Administrator') (e687355d-a73e-4b86-91cc-31684a095f58)
+08:18:51 short: Job OK (e687355d-a73e-4b86-91cc-31684a095f58)
+08:18:51 Result is kept for 500 seconds
+08:18:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.website.doctype.web_page.web_page.check_publish_status', kwargs={}, method='frappe.website.doctype.web_page.web_page.check_publish_status', site='site1.local', user='Administrator') (76ce245e-ed9a-4aa9-bbc6-cc1228119303)
+08:18:51 short: Job OK (76ce245e-ed9a-4aa9-bbc6-cc1228119303)
+08:18:51 Result is kept for 500 seconds
+08:18:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.utils.global_search.sync_global_search', kwargs={}, method='frappe.utils.global_search.sync_global_search', site='site1.local', user='Administrator') (1f96bda6-582b-44be-8662-e01ce4633acb)
+08:18:51 short: Job OK (1f96bda6-582b-44be-8662-e01ce4633acb)
+08:18:51 Result is kept for 500 seconds
+08:18:51 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.monitor.flush', kwargs={}, method='frappe.monitor.flush', site='site1.local', user='Administrator') (971bd675-20ef-4cec-bea3-fa72de6ac621)
+08:18:51 short: Job OK (971bd675-20ef-4cec-bea3-fa72de6ac621)
+08:18:51 Result is kept for 500 seconds
+06:14:50 RQ worker 'rq:worker:8f1182e264a94b06baf52c6249e41575.a366b2eafb63.612.default' started, version 0.12.0
+06:14:50 *** Listening on default...
+06:14:50 Cleaning registries for queue: default
+06:14:50 RQ worker 'rq:worker:02e4f0f851754d4b980e14bb0d1c93fb.a366b2eafb63.614.long' started, version 0.12.0
+06:14:50 *** Listening on long...
+06:14:50 Cleaning registries for queue: long
+06:14:50 RQ worker 'rq:worker:93570cd274c841f9b1664186d85286fc.a366b2eafb63.615.short' started, version 0.12.0
+06:14:50 *** Listening on short...
+06:14:50 Cleaning registries for queue: short
+06:15:12 Warm shut down requested
+06:15:12 Warm shut down requested
+06:15:12 Warm shut down requested
+06:15:15 RQ worker 'rq:worker:293bc2c7827b444d908ee95399617929.a366b2eafb63.702.default' started, version 0.12.0
+06:15:15 *** Listening on default...
+06:15:15 Cleaning registries for queue: default
+06:15:16 RQ worker 'rq:worker:a8a754513af04e40a1887b690c987c2d.a366b2eafb63.703.long' started, version 0.12.0
+06:15:16 *** Listening on long...
+06:15:16 Cleaning registries for queue: long
+06:15:16 RQ worker 'rq:worker:2f890bc3294f434a99ef88ea595d3ea3.a366b2eafb63.704.short' started, version 0.12.0
+06:15:16 *** Listening on short...
+06:15:16 Cleaning registries for queue: short
+06:16:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.queue.flush', kwargs={}, method='frappe.email.queue.flush', site='site1.local', user='Administrator') (ec500857-f330-430a-9568-2be22caa38f1)
+06:16:16 long: frappe.utils.background_jobs.execute_job(event='daily_long', is_async=True, job_name='frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily', kwargs={}, method='frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily', site='site1.local', user='Administrator') (47abc31e-5c4c-4e3e-a7db-48a920de42c6)
+06:16:16 short: Job OK (ec500857-f330-430a-9568-2be22caa38f1)
+06:16:16 Result is kept for 500 seconds
+06:16:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.pull', kwargs={}, method='frappe.email.doctype.email_account.email_account.pull', site='site1.local', user='Administrator') (51102877-a021-412e-93e6-cebb5c9086bd)
+06:16:16 short: Job OK (51102877-a021-412e-93e6-cebb5c9086bd)
+06:16:16 Result is kept for 500 seconds
+06:16:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.notify_unreplied', kwargs={}, method='frappe.email.doctype.email_account.email_account.notify_unreplied', site='site1.local', user='Administrator') (e188b71e-ddc7-4bd5-bb3f-05ed85375380)
+06:16:16 long: Job OK (47abc31e-5c4c-4e3e-a7db-48a920de42c6)
+06:16:16 Result is kept for 500 seconds
+06:16:16 long: frappe.utils.background_jobs.execute_job(event='daily_long', is_async=True, job_name='frappe.utils.change_log.check_for_update', kwargs={}, method='frappe.utils.change_log.check_for_update', site='site1.local', user='Administrator') (c675bfe5-5cd2-43c8-b53b-b5775f06b2f1)
+06:16:16 short: Job OK (e188b71e-ddc7-4bd5-bb3f-05ed85375380)
+06:16:16 Result is kept for 500 seconds
+06:16:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.oauth.delete_oauth2_data', kwargs={}, method='frappe.oauth.delete_oauth2_data', site='site1.local', user='Administrator') (52f6ea89-837b-47fc-90d3-b95adfd433b6)
+06:16:17 short: Job OK (52f6ea89-837b-47fc-90d3-b95adfd433b6)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', kwargs={}, method='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', site='site1.local', user='Administrator') (8d920841-ebad-4a61-a7a3-182a531151a3)
+06:16:17 short: Job OK (8d920841-ebad-4a61-a7a3-182a531151a3)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.twofactor.delete_all_barcodes_for_users', kwargs={}, method='frappe.twofactor.delete_all_barcodes_for_users', site='site1.local', user='Administrator') (8ed70489-ae74-4fb2-a7b0-dd6139ac3f5b)
+06:16:17 short: Job OK (8ed70489-ae74-4fb2-a7b0-dd6139ac3f5b)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.website.doctype.web_page.web_page.check_publish_status', kwargs={}, method='frappe.website.doctype.web_page.web_page.check_publish_status', site='site1.local', user='Administrator') (2dca6d91-58d1-4f63-b91c-d511274b1f48)
+06:16:17 short: Job OK (2dca6d91-58d1-4f63-b91c-d511274b1f48)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.utils.global_search.sync_global_search', kwargs={}, method='frappe.utils.global_search.sync_global_search', site='site1.local', user='Administrator') (6aaac2e1-44ed-4ad2-bcfd-c551aab03b0f)
+06:16:17 short: Job OK (6aaac2e1-44ed-4ad2-bcfd-c551aab03b0f)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.monitor.flush', kwargs={}, method='frappe.monitor.flush', site='site1.local', user='Administrator') (c13a660a-edee-4a3d-98e1-5f4f997b6896)
+06:16:17 short: Job OK (c13a660a-edee-4a3d-98e1-5f4f997b6896)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='hourly', is_async=True, job_name='frappe.model.utils.link_count.update_link_count', kwargs={}, method='frappe.model.utils.link_count.update_link_count', site='site1.local', user='Administrator') (b339468c-e30b-4f3a-8044-35d0b90ac744)
+06:16:17 short: Job OK (b339468c-e30b-4f3a-8044-35d0b90ac744)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='hourly', is_async=True, job_name='frappe.model.utils.user_settings.sync_user_settings', kwargs={}, method='frappe.model.utils.user_settings.sync_user_settings', site='site1.local', user='Administrator') (d52f39df-e1a2-43c4-9848-183311080da7)
+06:16:17 short: Job OK (d52f39df-e1a2-43c4-9848-183311080da7)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='hourly', is_async=True, job_name='frappe.utils.error.collect_error_snapshots', kwargs={}, method='frappe.utils.error.collect_error_snapshots', site='site1.local', user='Administrator') (cf79bd8c-358e-4d59-bf39-a1b16861eef2)
+06:16:17 long: Job OK (c675bfe5-5cd2-43c8-b53b-b5775f06b2f1)
+06:16:17 Result is kept for 500 seconds
+06:16:17 long: frappe.utils.background_jobs.execute_job(event='daily_long', is_async=True, job_name='frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily', kwargs={}, method='frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily', site='site1.local', user='Administrator') (4f9ec6c3-849b-4869-ac57-414b93e3bb65)
+06:16:17 short: Job OK (cf79bd8c-358e-4d59-bf39-a1b16861eef2)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='hourly', is_async=True, job_name='frappe.desk.page.backups.backups.delete_downloadable_backups', kwargs={}, method='frappe.desk.page.backups.backups.delete_downloadable_backups', site='site1.local', user='Administrator') (aa977b34-b0a3-4cc8-b5af-95fb66c1aa6d)
+06:16:17 short: Job OK (aa977b34-b0a3-4cc8-b5af-95fb66c1aa6d)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='hourly', is_async=True, job_name='frappe.deferred_insert.save_to_db', kwargs={}, method='frappe.deferred_insert.save_to_db', site='site1.local', user='Administrator') (8f75acb8-80c1-406b-a4ea-4d0788d9cf11)
+06:16:17 long: Job OK (4f9ec6c3-849b-4869-ac57-414b93e3bb65)
+06:16:17 Result is kept for 500 seconds
+06:16:17 long: frappe.utils.background_jobs.execute_job(event='daily_long', is_async=True, job_name='frappe.integrations.doctype.google_drive.google_drive.daily_backup', kwargs={}, method='frappe.integrations.doctype.google_drive.google_drive.daily_backup', site='site1.local', user='Administrator') (06ff0e92-01d0-41b0-858c-c2bbe3fdbb11)
+06:16:17 short: Job OK (8f75acb8-80c1-406b-a4ea-4d0788d9cf11)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='hourly', is_async=True, job_name='frappe.desk.form.document_follow.send_hourly_updates', kwargs={}, method='frappe.desk.form.document_follow.send_hourly_updates', site='site1.local', user='Administrator') (496df0ca-9e28-4228-b969-08c8998a41ed)
+06:16:17 short: Job OK (496df0ca-9e28-4228-b969-08c8998a41ed)
+06:16:17 Result is kept for 500 seconds
+06:16:17 short: frappe.utils.background_jobs.execute_job(event='hourly', is_async=True, job_name='frappe.integrations.doctype.google_calendar.google_calendar.sync', kwargs={}, method='frappe.integrations.doctype.google_calendar.google_calendar.sync', site='site1.local', user='Administrator') (3e4c6d62-ae1a-4bfb-b9a7-a1426b6f0a73)
+06:16:18 long: Job OK (06ff0e92-01d0-41b0-858c-c2bbe3fdbb11)
+06:16:18 Result is kept for 500 seconds
+06:16:18 long: frappe.utils.background_jobs.execute_job(event='weekly_long', is_async=True, job_name='frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly', kwargs={}, method='frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_weekly', site='site1.local', user='Administrator') (e7e4f9f1-b468-4b7b-a5fc-1ee31530c318)
+06:16:18 short: Job OK (3e4c6d62-ae1a-4bfb-b9a7-a1426b6f0a73)
+06:16:18 Result is kept for 500 seconds
+06:16:18 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.email.queue.clear_outbox', kwargs={}, method='frappe.email.queue.clear_outbox', site='site1.local', user='Administrator') (0cc4238c-b589-4017-ad36-499fdc0eee7f)
+06:16:18 short: Job OK (0cc4238c-b589-4017-ad36-499fdc0eee7f)
+06:16:18 Result is kept for 500 seconds
+06:16:18 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.desk.notifications.clear_notifications', kwargs={}, method='frappe.desk.notifications.clear_notifications', site='site1.local', user='Administrator') (ab02edd9-040c-487e-be74-106e77235ce3)
+06:16:18 long: Job OK (e7e4f9f1-b468-4b7b-a5fc-1ee31530c318)
+06:16:18 Result is kept for 500 seconds
+06:16:18 long: frappe.utils.background_jobs.execute_job(event='weekly_long', is_async=True, job_name='frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly', kwargs={}, method='frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_weekly', site='site1.local', user='Administrator') (c6ad8665-d20e-4ffa-b58c-401999a6ee90)
+06:16:18 short: Job OK (ab02edd9-040c-487e-be74-106e77235ce3)
+06:16:18 Result is kept for 500 seconds
+06:16:18 long: Job OK (c6ad8665-d20e-4ffa-b58c-401999a6ee90)
+06:16:18 Result is kept for 500 seconds
+06:16:18 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.core.doctype.error_log.error_log.set_old_logs_as_seen', kwargs={}, method='frappe.core.doctype.error_log.error_log.set_old_logs_as_seen', site='site1.local', user='Administrator') (656ad577-67e0-4467-bcf3-ec5c7855a3b5)
+06:16:18 long: frappe.utils.background_jobs.execute_job(event='weekly_long', is_async=True, job_name='frappe.desk.doctype.route_history.route_history.flush_old_route_records', kwargs={}, method='frappe.desk.doctype.route_history.route_history.flush_old_route_records', site='site1.local', user='Administrator') (50f1aff4-570a-461b-9a2e-384aebaeeadd)
+06:16:18 long: Job OK (50f1aff4-570a-461b-9a2e-384aebaeeadd)
+06:16:18 Result is kept for 500 seconds
+06:16:18 long: frappe.utils.background_jobs.execute_job(event='weekly_long', is_async=True, job_name='frappe.desk.form.document_follow.send_weekly_updates', kwargs={}, method='frappe.desk.form.document_follow.send_weekly_updates', site='site1.local', user='Administrator') (010f9d1e-1bca-4d58-a3c7-d700c04c6c3f)
+06:16:18 short: Job OK (656ad577-67e0-4467-bcf3-ec5c7855a3b5)
+06:16:18 Result is kept for 500 seconds
+06:16:18 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.desk.doctype.event.event.send_event_digest', kwargs={}, method='frappe.desk.doctype.event.event.send_event_digest', site='site1.local', user='Administrator') (1cdfe4ca-481f-4bf7-8e38-ee507f6e027b)
+06:16:18 long: Job OK (010f9d1e-1bca-4d58-a3c7-d700c04c6c3f)
+06:16:18 Result is kept for 500 seconds
+06:16:18 long: frappe.utils.background_jobs.execute_job(event='weekly_long', is_async=True, job_name='frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary', kwargs={}, method='frappe.social.doctype.energy_point_log.energy_point_log.send_weekly_summary', site='site1.local', user='Administrator') (8bbabb48-d959-4754-96c8-49fc9030ca49)
+06:16:18 short: Job OK (1cdfe4ca-481f-4bf7-8e38-ee507f6e027b)
+06:16:18 Result is kept for 500 seconds
+06:16:18 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.sessions.clear_expired_sessions', kwargs={}, method='frappe.sessions.clear_expired_sessions', site='site1.local', user='Administrator') (95a9ea21-9854-4d9b-8e1c-8e3621959f01)
+06:16:18 long: Job OK (8bbabb48-d959-4754-96c8-49fc9030ca49)
+06:16:18 Result is kept for 500 seconds
+06:16:18 long: frappe.utils.background_jobs.execute_job(event='weekly_long', is_async=True, job_name='frappe.integrations.doctype.google_drive.google_drive.weekly_backup', kwargs={}, method='frappe.integrations.doctype.google_drive.google_drive.weekly_backup', site='site1.local', user='Administrator') (33d81e4e-d90e-4ed4-ac84-25c5cfb90949)
+06:16:18 long: Job OK (33d81e4e-d90e-4ed4-ac84-25c5cfb90949)
+06:16:18 Result is kept for 500 seconds
+06:16:18 long: frappe.utils.background_jobs.execute_job(event='monthly_long', is_async=True, job_name='frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly', kwargs={}, method='frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_monthly', site='site1.local', user='Administrator') (0c7c4d58-edb6-4159-a44d-27bb818c34fe)
+06:16:19 long: Job OK (0c7c4d58-edb6-4159-a44d-27bb818c34fe)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: Job OK (95a9ea21-9854-4d9b-8e1c-8e3621959f01)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.email.doctype.notification.notification.trigger_daily_alerts', kwargs={}, method='frappe.email.doctype.notification.notification.trigger_daily_alerts', site='site1.local', user='Administrator') (250ead84-43b1-4c2e-8757-21f2dd67ba3d)
+06:16:19 short: Job OK (250ead84-43b1-4c2e-8757-21f2dd67ba3d)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.realtime.remove_old_task_logs', kwargs={}, method='frappe.realtime.remove_old_task_logs', site='site1.local', user='Administrator') (14f86031-01b7-43d5-b8c4-d6a061871bff)
+06:16:19 short: Job OK (14f86031-01b7-43d5-b8c4-d6a061871bff)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.utils.scheduler.restrict_scheduler_events_if_dormant', kwargs={}, method='frappe.utils.scheduler.restrict_scheduler_events_if_dormant', site='site1.local', user='Administrator') (53383207-28a1-4736-8c91-76f44942dc38)
+06:16:19 short: Job OK (53383207-28a1-4736-8c91-76f44942dc38)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.email.doctype.auto_email_report.auto_email_report.send_daily', kwargs={}, method='frappe.email.doctype.auto_email_report.auto_email_report.send_daily', site='site1.local', user='Administrator') (afa43009-4819-4208-97c5-d577e60db17c)
+06:16:19 short: Job OK (afa43009-4819-4208-97c5-d577e60db17c)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.core.doctype.activity_log.activity_log.clear_authentication_logs', kwargs={}, method='frappe.core.doctype.activity_log.activity_log.clear_authentication_logs', site='site1.local', user='Administrator') (560cd754-c58a-4396-9d70-0ee51b36881e)
+06:16:19 short: Job OK (560cd754-c58a-4396-9d70-0ee51b36881e)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record', kwargs={}, method='frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record', site='site1.local', user='Administrator') (cbcf742d-ae39-474c-b164-8cf283ba5989)
+06:16:19 short: Job OK (cbcf742d-ae39-474c-b164-8cf283ba5989)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.desk.form.document_follow.send_daily_updates', kwargs={}, method='frappe.desk.form.document_follow.send_daily_updates', site='site1.local', user='Administrator') (56dae867-9687-4f1a-9281-f06ce7a4316e)
+06:16:19 short: Job OK (56dae867-9687-4f1a-9281-f06ce7a4316e)
+06:16:19 Result is kept for 500 seconds
+06:16:19 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points', kwargs={}, method='frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points', site='site1.local', user='Administrator') (349c8e06-eb46-4396-ba89-6b4b1f967a0b)
+06:16:20 short: Job OK (349c8e06-eb46-4396-ba89-6b4b1f967a0b)
+06:16:20 Result is kept for 500 seconds
+06:16:20 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.integrations.doctype.google_contacts.google_contacts.sync', kwargs={}, method='frappe.integrations.doctype.google_contacts.google_contacts.sync', site='site1.local', user='Administrator') (738440f8-09a3-48d2-8935-2ae09beeca08)
+06:16:20 short: Job OK (738440f8-09a3-48d2-8935-2ae09beeca08)
+06:16:20 Result is kept for 500 seconds
+06:16:20 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry', kwargs={}, method='frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry', site='site1.local', user='Administrator') (77786623-2323-461d-8306-cc79b63e4a4f)
+06:16:20 short: Job OK (77786623-2323-461d-8306-cc79b63e4a4f)
+06:16:20 Result is kept for 500 seconds
+06:16:20 default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', kwargs={'data': []}, method='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', site='site1.local', user='Administrator') (a6408704-ca57-4478-8f6a-b7dc3ce7de44)
+06:16:20 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed', kwargs={}, method='frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed', site='site1.local', user='Administrator') (3922a741-94a7-47e2-a9c6-22df8b0406f5)
+06:16:20 default: Job OK (a6408704-ca57-4478-8f6a-b7dc3ce7de44)
+06:16:20 Result is kept for 500 seconds
+06:16:20 short: Job OK (3922a741-94a7-47e2-a9c6-22df8b0406f5)
+06:16:20 Result is kept for 500 seconds
+06:16:20 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails', kwargs={}, method='frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails', site='site1.local', user='Administrator') (10fb8eb3-1305-43f4-88d5-fc73865bf34c)
+06:16:20 short: Job OK (10fb8eb3-1305-43f4-88d5-fc73865bf34c)
+06:16:20 Result is kept for 500 seconds
+06:16:20 short: frappe.utils.background_jobs.execute_job(event='daily', is_async=True, job_name='frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports', kwargs={}, method='frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports', site='site1.local', user='Administrator') (79dc2896-7891-460e-ad9b-434b7cf7df3d)
+06:16:20 short: Job OK (79dc2896-7891-460e-ad9b-434b7cf7df3d)
+06:16:20 Result is kept for 500 seconds
+06:16:20 short: frappe.utils.background_jobs.execute_job(event='monthly', is_async=True, job_name='frappe.email.doctype.auto_email_report.auto_email_report.send_monthly', kwargs={}, method='frappe.email.doctype.auto_email_report.auto_email_report.send_monthly', site='site1.local', user='Administrator') (7ec7c1ec-0616-43ff-85e6-bf8b9c506f67)
+06:16:21 short: Job OK (7ec7c1ec-0616-43ff-85e6-bf8b9c506f67)
+06:16:21 Result is kept for 500 seconds
+06:16:21 short: frappe.utils.background_jobs.execute_job(event='monthly', is_async=True, job_name='frappe.social.doctype.energy_point_log.energy_point_log.send_monthly_summary', kwargs={}, method='frappe.social.doctype.energy_point_log.energy_point_log.send_monthly_summary', site='site1.local', user='Administrator') (4b73aa89-2de6-4bb1-91fd-af5499b7a93a)
+06:16:21 short: Job OK (4b73aa89-2de6-4bb1-91fd-af5499b7a93a)
+06:16:21 Result is kept for 500 seconds
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.queue.flush', kwargs={}, method='frappe.email.queue.flush', site='site1.local', user='Administrator') (cd98096c-761e-45dc-be8e-8945a0c4bcc7)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.pull', kwargs={}, method='frappe.email.doctype.email_account.email_account.pull', site='site1.local', user='Administrator') (e2c426f7-2b81-4158-82a9-ca31b79fcf8b)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.notify_unreplied', kwargs={}, method='frappe.email.doctype.email_account.email_account.notify_unreplied', site='site1.local', user='Administrator') (cd6044ae-8e9e-4d98-9011-e8b90d958051)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.oauth.delete_oauth2_data', kwargs={}, method='frappe.oauth.delete_oauth2_data', site='site1.local', user='Administrator') (10ad44eb-d601-4a27-9fc4-6de87a63ef5f)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', kwargs={}, method='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', site='site1.local', user='Administrator') (74c9ca81-8bef-494d-800a-ffb9afb98e83)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.twofactor.delete_all_barcodes_for_users', kwargs={}, method='frappe.twofactor.delete_all_barcodes_for_users', site='site1.local', user='Administrator') (e16c2abd-cf78-4b9b-b560-1671e4b31714)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.website.doctype.web_page.web_page.check_publish_status', kwargs={}, method='frappe.website.doctype.web_page.web_page.check_publish_status', site='site1.local', user='Administrator') (327fe16c-5cd0-47f3-8e96-8416601bc7ae)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.utils.global_search.sync_global_search', kwargs={}, method='frappe.utils.global_search.sync_global_search', site='site1.local', user='Administrator') (cea91f46-6bcb-47c9-b048-e132e1f3de6e)
+06:18:16 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:16 Moving job to 'failed' queue
+06:18:16 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.monitor.flush', kwargs={}, method='frappe.monitor.flush', site='site1.local', user='Administrator') (23012785-f094-4699-bf83-bcf40e1d2d27)
+06:18:17 ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    rv = job.perform()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    self._result = self._execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 1, in <module>
+    import pypika.terms
+ModuleNotFoundError: No module named 'pypika'
+06:18:17 Moving job to 'failed' queue
+06:22:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.queue.flush', kwargs={}, method='frappe.email.queue.flush', site='site1.local', user='Administrator') (3bb5c9c2-f450-469d-aa0a-4a75569657f6)
+06:22:17 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:17 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.pull', kwargs={}, method='frappe.email.doctype.email_account.email_account.pull', site='site1.local', user='Administrator') (fdf9f010-2d2e-42b4-aab3-4213c5f6efbc)
+06:22:17 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:17 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.email.doctype.email_account.email_account.notify_unreplied', kwargs={}, method='frappe.email.doctype.email_account.email_account.notify_unreplied', site='site1.local', user='Administrator') (67cf33a5-afec-4bbc-b86e-1be820ca9425)
+06:22:17 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:17 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:17 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.oauth.delete_oauth2_data', kwargs={}, method='frappe.oauth.delete_oauth2_data', site='site1.local', user='Administrator') (6443cc0e-ccf7-4714-8acc-759eeca69d24)
+06:22:17 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:17 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:18 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', kwargs={}, method='frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment', site='site1.local', user='Administrator') (49c16a3f-0a6b-4e6a-9d08-e1635757d890)
+06:22:18 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:18 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:18 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.twofactor.delete_all_barcodes_for_users', kwargs={}, method='frappe.twofactor.delete_all_barcodes_for_users', site='site1.local', user='Administrator') (09836c76-2fdd-4fb1-b4e4-7e33df76ad2e)
+06:22:18 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:18 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:18 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.website.doctype.web_page.web_page.check_publish_status', kwargs={}, method='frappe.website.doctype.web_page.web_page.check_publish_status', site='site1.local', user='Administrator') (933a148d-7b16-497c-a0b1-8367628618e5)
+06:22:18 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:18 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:18 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.utils.global_search.sync_global_search', kwargs={}, method='frappe.utils.global_search.sync_global_search', site='site1.local', user='Administrator') (8e737c86-2c3f-4fe5-84d8-a023d70c63b9)
+06:22:18 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:18 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:22:18 short: frappe.utils.background_jobs.execute_job(event='all', is_async=True, job_name='frappe.monitor.flush', kwargs={}, method='frappe.monitor.flush', site='site1.local', user='Administrator') (a1198046-455e-408c-88ab-8d3c18ed8e62)
+06:22:18 ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+06:22:18 Moving job to 'failed' queue
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 793, in perform_job
+    # Kill the job from this side if something is really wrong (interpreter lock/etc).
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 599, in perform
+    Exclude saving the `meta` dictionary by setting
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 605, in _execute
+    key = self.key
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 84, in execute_job
+    else:
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 22, in <module>
+    from frappe.core.doctype.user.user import STANDARD_USERS
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 11, in <module>
+    import frappe.permissions
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/permissions.py", line 9, in <module>
+    from frappe.query_builder import DocType
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/__init__.py", line 6, in <module>
+    from frappe.query_builder.terms import ParameterizedFunction, ParameterizedValueWrapper
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/query_builder/terms.py", line 3, in <module>
+    from frappe.utils.data import format_timedelta
+ImportError: cannot import name 'format_timedelta' from 'frappe.utils.data' (/home/frappe/frappe-bench/apps/frappe/frappe/utils/data.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    return frappe.get_all_apps(with_internal_apps=False, sites_path='.')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    })
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    if args is None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    self,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    self.format_commands(ctx, formatter)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    is_eager=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 493, in work
+    raise StopRequested
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 662, in execute_job
+    job, queue = result
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 599, in fork_work_horse
+    if max_jobs is not None:
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 677, in main_work_horse
+    time.sleep(connection_wait_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 808, in perform_job
+    # caused by a SIGINT or SIGTERM signal during
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 844, in handle_exception
+    exc_string="Work-horse was terminated unexpectedly "
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 857, in move_to_failed_queue
+    self.set_state(WorkerStatus.IDLE)
+ModuleNotFoundError: No module named 'rq.handlers'
+06:26:00 Warm shut down requested
+06:26:00 Warm shut down requested
+06:26:00 Warm shut down requested
+06:27:30 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+06:27:30 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+06:27:30 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 166, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:11001. Cannot assign requested address.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 166, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:11001. Cannot assign requested address.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 231, in can_read
+    raise_on_timeout=False)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 166, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:11001. Cannot assign requested address.
+12:46:09 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+12:46:09 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+12:46:09 Could not connect to Redis instance: Connection closed by server. Retrying in 1 seconds...
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 417, in can_read
+    raise_on_timeout=False)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 166, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:11001. Cannot assign requested address.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 417, in can_read
+    raise_on_timeout=False)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 166, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:11001. Cannot assign requested address.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3719, in run
+    timeout=sleep_time)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 417, in can_read
+    raise_on_timeout=False)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 166, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:11001. Cannot assign requested address.
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+WARNING	Property: Unknown Property name. [11:3: overflow-wrap]
+WARNING	Property: Unknown Property name. [11:3: overflow-wrap]
+fatal: No remote configured to list refs from.
+WARNING	Property: Unknown Property name. [11:3: overflow-wrap]
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.
+fatal: No remote configured to list refs from.

@@ -1,0 +1,459 @@
+2022-05-12 13:40:20,944 ERROR frappe New Exception collected with id: 2022-05-12 13:40:19.440021-172.17.0.1-a34
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Sales Order","name":"new-sales-order-1","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"{customer_name}","naming_series":"SAL-ORD-.YYYY.-","order_type":"Sales","skip_delivery_note":0,"transaction_date":"2022-05-12","currency":"INR","price_list_currency":"INR","ignore_pricing_rule":0,"apply_discount_on":"Grand Total","disable_rounded_total":0,"is_internal_customer":0,"party_account_currency":"INR","group_same_items":0,"status":"Draft","delivery_status":"Not Delivered","billing_status":"Not Billed","items":[{"docstatus":0,"doctype":"Sales Order Item","name":"new-sales-order-item-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ensure_delivery_based_on_produced_serial_no":0,"margin_type":"","is_free_item":0,"grant_commission":1,"delivered_by_supplier":0,"against_blanket_order":0,"page_break":0,"parent":"new-sales-order-1","parentfield":"items","parenttype":"Sales Order","idx":1,"qty":0,"picked_qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"billed_amt":0,"valuation_rate":0,"gross_profit":0,"weight_per_unit":0,"total_weight":0,"blanket_order_rate":0,"projected_qty":0,"actual_qty":0,"ordered_qty":0,"planned_qty":0,"work_order_qty":0,"produced_qty":0,"delivered_qty":0,"returned_qty":0,"delivery_date":"2022-05-17","gst_hsn_code":null,"is_nil_exempt":0,"is_non_gst":0,"item_code":"01","weight_uom":"","barcode":null}],"conversion_rate":1,"plc_conversion_rate":1,"company":"extension technology","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"rounding_adjustment":0,"grand_total":0,"base_grand_total":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"base_rounding_adjustment":0,"rounded_total":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"amount_eligible_for_commission":0,"total_commission":null,"customer":"ashish","tax_id":null,"customer_name":"ashish","represents_company":null,"customer_address":null,"billing_address_gstin":null,"place_of_supply":null,"address_display":null,"shipping_address_name":"","customer_gstin":null,"shipping_address":null,"company_address":null,"company_gstin":"","company_address_display":null,"contact_person":null,"contact_display":null,"contact_email":null,"contact_mobile":null,"contact_phone":null,"customer_group":"Individual","territory":"India","language":"en-US","selling_price_list":"","tax_category":"","payment_terms_template":null,"sales_team":[],"delivery_date":"2022-05-17"}', 'args': '{"item_code":"01","barcode":null,"customer":"ashish","currency":"INR","update_stock":0,"conversion_rate":1,"price_list_currency":"INR","plc_conversion_rate":1,"company":"extension technology","order_type":"Sales","is_pos":0,"is_return":0,"transaction_date":"2022-05-12","ignore_pricing_rule":0,"doctype":"Sales Order","name":"new-sales-order-1","qty":1,"net_rate":0,"stock_qty":0,"conversion_factor":0,"weight_per_unit":0,"weight_uom":"","pos_profile":"","tax_category":"","child_docname":"new-sales-order-item-1"}', 'cmd': 'erpnext.stock.get_item_details.get_item_details'}
+2022-05-12 13:50:10,352 ERROR frappe New Exception collected with id: 2022-05-12 13:50:08.614404-172.17.0.1-3af
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Sales Order","name":"new-sales-order-1","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"{customer_name}","naming_series":"SAL-ORD-.YYYY.-","order_type":"Sales","skip_delivery_note":0,"transaction_date":"2022-05-12","currency":"INR","price_list_currency":"INR","ignore_pricing_rule":1,"apply_discount_on":"Grand Total","disable_rounded_total":0,"is_internal_customer":0,"party_account_currency":"INR","group_same_items":0,"status":"Draft","delivery_status":"Not Delivered","billing_status":"Not Billed","items":[{"docstatus":0,"doctype":"Sales Order Item","name":"new-sales-order-item-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ensure_delivery_based_on_produced_serial_no":0,"margin_type":"","is_free_item":0,"grant_commission":1,"delivered_by_supplier":0,"against_blanket_order":0,"page_break":0,"parent":"new-sales-order-1","parentfield":"items","parenttype":"Sales Order","idx":1,"qty":0,"picked_qty":0,"conversion_factor":1,"stock_qty":0,"price_list_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"billed_amt":0,"valuation_rate":0,"gross_profit":0,"weight_per_unit":0,"total_weight":0,"blanket_order_rate":0,"projected_qty":0,"actual_qty":0,"ordered_qty":0,"planned_qty":0,"work_order_qty":0,"produced_qty":0,"delivered_qty":0,"returned_qty":0,"delivery_date":"2022-05-17","gst_hsn_code":null,"is_nil_exempt":0,"is_non_gst":0,"item_code":"01","weight_uom":"","barcode":null,"item_name":"tea","description":"<div class=\\"ql-editor read-mode\\"><p>tea</p></div>","has_margin":false,"child_docname":"new-sales-order-item-1","discount_percentage":0,"uom":"Box"}],"conversion_rate":1,"plc_conversion_rate":1,"company":"extension technology","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"rounding_adjustment":0,"grand_total":0,"base_grand_total":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"base_rounding_adjustment":0,"rounded_total":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"amount_eligible_for_commission":0,"total_commission":null,"customer":"ashish","tax_id":null,"customer_name":"ashish","represents_company":null,"customer_address":null,"billing_address_gstin":null,"place_of_supply":null,"address_display":null,"shipping_address_name":"","customer_gstin":null,"shipping_address":null,"company_address":null,"company_gstin":"","company_address_display":null,"contact_person":null,"contact_display":null,"contact_email":null,"contact_mobile":null,"contact_phone":null,"customer_group":"Individual","territory":"India","language":"en-US","selling_price_list":"T","tax_category":"","payment_terms_template":null,"sales_team":[],"delivery_date":"2022-05-17","shipping_rule":"","total_net_weight":0}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-12 13:50:16,602 ERROR frappe New Exception collected with id: 2022-05-12 13:50:16.468850-172.17.0.1-d12
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Sales Order","name":"new-sales-order-1","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"{customer_name}","naming_series":"SAL-ORD-.YYYY.-","order_type":"Sales","skip_delivery_note":0,"transaction_date":"2022-05-12","currency":"INR","price_list_currency":"INR","ignore_pricing_rule":1,"apply_discount_on":"Grand Total","disable_rounded_total":0,"is_internal_customer":0,"party_account_currency":"INR","group_same_items":0,"status":"Draft","delivery_status":"Not Delivered","billing_status":"Not Billed","items":[{"docstatus":0,"doctype":"Sales Order Item","name":"new-sales-order-item-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ensure_delivery_based_on_produced_serial_no":0,"margin_type":"","is_free_item":0,"grant_commission":1,"delivered_by_supplier":0,"against_blanket_order":0,"page_break":0,"parent":"new-sales-order-1","parentfield":"items","parenttype":"Sales Order","idx":1,"qty":0,"picked_qty":0,"conversion_factor":1,"stock_qty":0,"price_list_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"billed_amt":0,"valuation_rate":0,"gross_profit":0,"weight_per_unit":0,"total_weight":0,"blanket_order_rate":0,"projected_qty":0,"actual_qty":0,"ordered_qty":0,"planned_qty":0,"work_order_qty":0,"produced_qty":0,"delivered_qty":0,"returned_qty":0,"delivery_date":"2022-05-17","gst_hsn_code":null,"is_nil_exempt":0,"is_non_gst":0,"item_code":"01","weight_uom":"","barcode":null,"item_name":"tea","description":"<div class=\\"ql-editor read-mode\\"><p>tea</p></div>","has_margin":false,"child_docname":"new-sales-order-item-1","discount_percentage":0,"uom":"Box"}],"conversion_rate":1,"plc_conversion_rate":1,"company":"extension technology","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"rounding_adjustment":0,"grand_total":0,"base_grand_total":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"base_rounding_adjustment":0,"rounded_total":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"amount_eligible_for_commission":0,"total_commission":null,"customer":"ashish","tax_id":null,"customer_name":"ashish","represents_company":null,"customer_address":null,"billing_address_gstin":null,"place_of_supply":null,"address_display":null,"shipping_address_name":"","customer_gstin":null,"shipping_address":null,"company_address":null,"company_gstin":"","company_address_display":null,"contact_person":null,"contact_display":null,"contact_email":null,"contact_mobile":null,"contact_phone":null,"customer_group":"Individual","territory":"India","language":"en-US","selling_price_list":"T","tax_category":"","payment_terms_template":null,"sales_team":[],"delivery_date":"2022-05-17","shipping_rule":"","total_net_weight":0}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-13 03:55:52,821 ERROR frappe New Exception collected with id: 2022-05-13 03:55:50.179753-172.17.0.1-82f
+Site: site1.local
+Form Dict: {}
+2022-05-13 04:04:26,508 ERROR frappe New Exception collected with id: 2022-05-13 04:04:25.696998-172.17.0.1-c5e
+Site: site1.local
+Form Dict: {'doctype': 'Sales Order', 'start': '2022-05-01 00:00:00', 'end': '2022-06-12 00:00:00', 'filters': '[]', 'field_map': '{"start":"delivery_date","end":"delivery_date","id":"name","title":"Customer_name","allDay":"allDay"}', 'cmd': 'erpnext.selling.doctype.sales_order.sales_order.get_events'}
+2022-05-13 04:09:25,190 ERROR frappe New Exception collected with id: 2022-05-13 04:09:24.946530-172.17.0.1-bb0
+Site: site1.local
+Form Dict: {'doctype': 'Sales Order', 'start': '2022-05-01 00:00:00', 'end': '2022-06-12 00:00:00', 'filters': '[]', 'field_map': '{"start":"delivery_date","end":"delivery_date","id":"name","title":"Customer_name","allDay":"allDay"}', 'cmd': 'erpnext.selling.doctype.sales_order.sales_order.get_events'}
+2022-05-13 04:14:25,509 ERROR frappe New Exception collected with id: 2022-05-13 04:14:25.500862-172.17.0.1-960
+Site: site1.local
+Form Dict: {'doctype': 'Sales Order', 'start': '2022-05-01 00:00:00', 'end': '2022-06-12 00:00:00', 'filters': '[]', 'field_map': '{"start":"delivery_date","end":"delivery_date","id":"name","title":"Customer_name","allDay":"allDay"}', 'cmd': 'erpnext.selling.doctype.sales_order.sales_order.get_events'}
+2022-05-13 04:20:54,490 ERROR frappe New Exception collected with id: 2022-05-13 04:20:53.878846-172.17.0.1-7d6
+Site: site1.local
+Form Dict: {'doctype': 'Sales Order', 'start': '2022-05-01 00:00:00', 'end': '2022-06-12 00:00:00', 'filters': '[]', 'field_map': '{"start":"delivery_date","end":"delivery_date","id":"name","title":"Customer_name","allDay":"allDay"}', 'cmd': 'erpnext.selling.doctype.sales_order.sales_order.get_events'}
+2022-05-13 04:23:44,205 ERROR frappe New Exception collected with id: 2022-05-13 04:23:42.831757-172.17.0.1-af4
+Site: site1.local
+Form Dict: {'doctype': 'Sales Order', 'start': '2022-05-01 00:00:00', 'end': '2022-06-12 00:00:00', 'filters': '[]', 'field_map': '{"start":"delivery_date","end":"delivery_date","id":"name","title":"Customer_name","allDay":"allDay"}', 'cmd': 'erpnext.selling.doctype.sales_order.sales_order.get_events'}
+2022-05-13 04:24:43,592 ERROR frappe New Exception collected with id: 2022-05-13 04:24:43.555129-172.17.0.1-eff
+Site: site1.local
+Form Dict: {'doctype': 'Sales Order', 'start': '2022-05-01 00:00:00', 'end': '2022-06-12 00:00:00', 'filters': '[]', 'field_map': '{"start":"delivery_date","end":"delivery_date","id":"name","title":"Customer_name","allDay":"allDay"}', 'cmd': 'erpnext.selling.doctype.sales_order.sales_order.get_events'}
+2022-05-13 08:53:04,014 ERROR frappe New Exception collected with id: 2022-05-13 08:53:01.215099-172.17.0.1-e2f
+Site: site1.local
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Sales Invoice","name":"new-sales-invoice-1","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"ACC-SINV-.YYYY.-","is_pos":0,"is_consolidated":0,"is_return":0,"is_debit_note":0,"update_billed_amount_in_sales_order":0,"posting_date":"2022-05-13","set_posting_time":0,"currency":"INR","selling_price_list":"T","price_list_currency":"INR","ignore_pricing_rule":0,"update_stock":0,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand Total","disable_rounded_total":0,"write_off_outstanding_amount_automatically":0,"allocate_advances_automatically":0,"ignore_default_payment_terms_template":0,"group_same_items":0,"gst_category":"","status":"Draft","is_internal_customer":0,"is_discounted":0,"party_account_currency":"INR","is_opening":"No","c_form_applicable":"No","einvoice_status":"","export_type":"","gst_vehicle_type":"Regular","invoice_copy":"Original for Recipient","lr_date":"2022-05-13","mode_of_transport":"","reason_for_issuing_document":"","reverse_charge":"N","items":[{"docstatus":0,"doctype":"Sales Invoice Item","name":"new-sales-invoice-item-1","__islocal":1,"__unsaved":1,"owner":"Administrator","margin_type":"","is_free_item":0,"grant_commission":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"page_break":0,"parent":"new-sales-invoice-1","parentfield":"items","parenttype":"Sales Invoice","idx":1,"qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"taxable_value":0,"weight_per_unit":0,"total_weight":0,"incoming_rate":0,"actual_batch_qty":0,"actual_qty":0,"delivered_qty":0}],"conversion_rate":1,"plc_conversion_rate":1,"posting_time":"14:22:54","company":"extension technology","company_address":"","company_gstin":"","company_tax_id":null,"place_of_supply":null,"company_address_display":"","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"rounding_adjustment":0,"grand_total":0,"base_grand_total":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"base_rounding_adjustment":0,"rounded_total":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"total_advance":0,"write_off_amount":0,"paid_amount":0,"base_paid_amount":0,"payments":[],"change_amount":0,"base_change_amount":0,"outstanding_amount":0,"amount_eligible_for_commission":0,"total_commission":null,"debit_to":"Debtors - ET"}', 'method': 'tracking', 'cmd': 'run_doc_method'}
+2022-05-13 08:53:17,984 ERROR frappe New Exception collected with id: 2022-05-13 08:53:17.974412-172.17.0.1-ec1
+Site: site1.local
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Sales Invoice","name":"new-sales-invoice-1","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"ACC-SINV-.YYYY.-","is_pos":0,"is_consolidated":0,"is_return":0,"is_debit_note":0,"update_billed_amount_in_sales_order":0,"posting_date":"2022-05-13","set_posting_time":0,"currency":"INR","selling_price_list":"T","price_list_currency":"INR","ignore_pricing_rule":0,"update_stock":0,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand Total","disable_rounded_total":0,"write_off_outstanding_amount_automatically":0,"allocate_advances_automatically":0,"ignore_default_payment_terms_template":0,"group_same_items":0,"gst_category":"","status":"Draft","is_internal_customer":0,"is_discounted":0,"party_account_currency":"INR","is_opening":"No","c_form_applicable":"No","einvoice_status":"","export_type":"","gst_vehicle_type":"Regular","invoice_copy":"Original for Recipient","lr_date":"2022-05-13","mode_of_transport":"","reason_for_issuing_document":"","reverse_charge":"N","items":[{"docstatus":0,"doctype":"Sales Invoice Item","name":"new-sales-invoice-item-1","__islocal":1,"__unsaved":1,"owner":"Administrator","margin_type":"","is_free_item":0,"grant_commission":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"page_break":0,"parent":"new-sales-invoice-1","parentfield":"items","parenttype":"Sales Invoice","idx":1,"qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"taxable_value":0,"weight_per_unit":0,"total_weight":0,"incoming_rate":0,"actual_batch_qty":0,"actual_qty":0,"delivered_qty":0}],"conversion_rate":1,"plc_conversion_rate":1,"posting_time":"14:22:54","company":"extension technology","company_address":"","company_gstin":"","company_tax_id":null,"place_of_supply":null,"company_address_display":"","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"rounding_adjustment":0,"grand_total":0,"base_grand_total":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"base_rounding_adjustment":0,"rounded_total":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"total_advance":0,"write_off_amount":0,"paid_amount":0,"base_paid_amount":0,"payments":[],"change_amount":0,"base_change_amount":0,"outstanding_amount":0,"amount_eligible_for_commission":0,"total_commission":null,"debit_to":"Debtors - ET"}', 'method': 'tracking', 'cmd': 'run_doc_method'}
+2022-05-13 10:37:53,031 ERROR frappe New Exception collected with id: 2022-05-13 10:37:50.043136-172.17.0.1-8d2
+Site: site1.local
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Sales Invoice","name":"new-sales-invoice-1","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"ACC-SINV-.YYYY.-","is_pos":0,"is_consolidated":0,"is_return":0,"is_debit_note":0,"update_billed_amount_in_sales_order":0,"posting_date":"2022-05-13","set_posting_time":0,"currency":"INR","selling_price_list":"T","price_list_currency":"INR","ignore_pricing_rule":0,"update_stock":0,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand Total","disable_rounded_total":0,"write_off_outstanding_amount_automatically":0,"allocate_advances_automatically":0,"ignore_default_payment_terms_template":0,"group_same_items":0,"gst_category":"","status":"Draft","is_internal_customer":0,"is_discounted":0,"party_account_currency":"INR","is_opening":"No","c_form_applicable":"No","einvoice_status":"","export_type":"","gst_vehicle_type":"Regular","invoice_copy":"Original for Recipient","lr_date":"2022-05-13","mode_of_transport":"","reason_for_issuing_document":"","reverse_charge":"N","items":[{"docstatus":0,"doctype":"Sales Invoice Item","name":"new-sales-invoice-item-1","__islocal":1,"__unsaved":1,"owner":"Administrator","margin_type":"","is_free_item":0,"grant_commission":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"page_break":0,"parent":"new-sales-invoice-1","parentfield":"items","parenttype":"Sales Invoice","idx":1,"qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"taxable_value":0,"weight_per_unit":0,"total_weight":0,"incoming_rate":0,"actual_batch_qty":0,"actual_qty":0,"delivered_qty":0}],"conversion_rate":1,"plc_conversion_rate":1,"posting_time":"16:07:23","company":"extension technology","company_address":"","company_gstin":"","company_tax_id":null,"place_of_supply":null,"company_address_display":"","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"rounding_adjustment":0,"grand_total":0,"base_grand_total":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"base_rounding_adjustment":0,"rounded_total":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"total_advance":0,"write_off_amount":0,"paid_amount":0,"base_paid_amount":0,"payments":[],"change_amount":0,"base_change_amount":0,"outstanding_amount":0,"amount_eligible_for_commission":0,"total_commission":null,"debit_to":"Debtors - ET","courier_type":"bluedart","url":"https://www.bluedart.com/web/guest/trackdartresultthirdparty?trackFor=0&trackNo=","courier":"courier001"}', 'method': 'tracking', 'cmd': 'run_doc_method'}
+2022-05-13 10:56:54,482 ERROR frappe New Exception collected with id: 2022-05-13 10:56:52.401044-172.17.0.1-965
+Site: site1.local
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Sales Invoice","name":"new-sales-invoice-1","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"ACC-SINV-.YYYY.-","is_pos":0,"is_consolidated":0,"is_return":0,"is_debit_note":0,"update_billed_amount_in_sales_order":0,"posting_date":"2022-05-13","set_posting_time":0,"currency":"INR","selling_price_list":"T","price_list_currency":"INR","ignore_pricing_rule":0,"update_stock":0,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand Total","disable_rounded_total":0,"write_off_outstanding_amount_automatically":0,"allocate_advances_automatically":0,"ignore_default_payment_terms_template":0,"group_same_items":0,"gst_category":"","status":"Draft","is_internal_customer":0,"is_discounted":0,"party_account_currency":"INR","is_opening":"No","c_form_applicable":"No","einvoice_status":"","export_type":"","gst_vehicle_type":"Regular","invoice_copy":"Original for Recipient","lr_date":"2022-05-13","mode_of_transport":"","reason_for_issuing_document":"","reverse_charge":"N","items":[{"docstatus":0,"doctype":"Sales Invoice Item","name":"new-sales-invoice-item-1","__islocal":1,"__unsaved":1,"owner":"Administrator","margin_type":"","is_free_item":0,"grant_commission":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"page_break":0,"parent":"new-sales-invoice-1","parentfield":"items","parenttype":"Sales Invoice","idx":1,"qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"base_price_list_rate":0,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"base_rate_with_margin":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"stock_uom_rate":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"taxable_value":0,"weight_per_unit":0,"total_weight":0,"incoming_rate":0,"actual_batch_qty":0,"actual_qty":0,"delivered_qty":0}],"conversion_rate":1,"plc_conversion_rate":1,"posting_time":"16:26:14","company":"extension technology","company_address":"","company_gstin":"","company_tax_id":null,"place_of_supply":null,"company_address_display":"","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"rounding_adjustment":0,"grand_total":0,"base_grand_total":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"base_rounding_adjustment":0,"rounded_total":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"total_advance":0,"write_off_amount":0,"paid_amount":0,"base_paid_amount":0,"payments":[],"change_amount":0,"base_change_amount":0,"outstanding_amount":0,"amount_eligible_for_commission":0,"total_commission":null,"debit_to":"Debtors - ET","courier_type":"bluedart","url":"https://www.bluedart.com/web/guest/trackdartresultthirdparty?trackFor=0&trackNo=","courier":"courier001","awb_number":"89459077676"}', 'method': 'tracking', 'cmd': 'run_doc_method'}
+2022-05-23 04:32:40,762 ERROR frappe New Exception collected with id: 2022-05-23 04:32:39.773434-172.17.0.1-115
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:32:43,416 ERROR frappe New Exception collected with id: 2022-05-23 04:32:42.951499-172.17.0.1-18b
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:32:45,874 ERROR frappe New Exception collected with id: 2022-05-23 04:32:45.483690-172.17.0.1-aa3
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:32:46,609 ERROR frappe New Exception collected with id: 2022-05-23 04:32:46.518772-172.17.0.1-5cd
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:32:49,225 ERROR frappe New Exception collected with id: 2022-05-23 04:32:49.079492-172.17.0.1-82a
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:32:49,781 ERROR frappe New Exception collected with id: 2022-05-23 04:32:49.710007-172.17.0.1-e01
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:33:00,943 ERROR frappe New Exception collected with id: 2022-05-23 04:33:00.894074-172.17.0.1-0d6
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:33:01,253 ERROR frappe New Exception collected with id: 2022-05-23 04:33:01.164211-172.17.0.1-f03
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:33:06,290 ERROR frappe New Exception collected with id: 2022-05-23 04:33:06.223129-172.17.0.1-060
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:33:06,593 ERROR frappe New Exception collected with id: 2022-05-23 04:33:06.467693-172.17.0.1-115
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:10,603 ERROR frappe New Exception collected with id: 2022-05-23 04:35:10.215983-172.17.0.1-46b
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:12,453 ERROR frappe New Exception collected with id: 2022-05-23 04:35:12.020074-172.17.0.1-f38
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:16,902 ERROR frappe New Exception collected with id: 2022-05-23 04:35:16.558012-172.17.0.1-e36
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:17,528 ERROR frappe New Exception collected with id: 2022-05-23 04:35:17.418383-172.17.0.1-297
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:25,968 ERROR frappe New Exception collected with id: 2022-05-23 04:35:25.928554-172.17.0.1-e97
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:26,308 ERROR frappe New Exception collected with id: 2022-05-23 04:35:26.210806-172.17.0.1-9a6
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:30,860 ERROR frappe New Exception collected with id: 2022-05-23 04:35:30.810407-172.17.0.1-fc7
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:31,200 ERROR frappe New Exception collected with id: 2022-05-23 04:35:31.131535-172.17.0.1-18d
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:43,456 ERROR frappe New Exception collected with id: 2022-05-23 04:35:43.379956-172.17.0.1-169
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:35:43,801 ERROR frappe New Exception collected with id: 2022-05-23 04:35:43.720721-172.17.0.1-0a7
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:36:30,542 ERROR frappe New Exception collected with id: 2022-05-23 04:36:29.962397-172.17.0.1-43e
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:36:30,953 ERROR frappe New Exception collected with id: 2022-05-23 04:36:30.896304-172.17.0.1-3f2
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:36:32,954 ERROR frappe New Exception collected with id: 2022-05-23 04:36:32.652221-172.17.0.1-a63
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:36:33,727 ERROR frappe New Exception collected with id: 2022-05-23 04:36:33.480988-172.17.0.1-e98
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:37:33,782 ERROR frappe New Exception collected with id: 2022-05-23 04:37:33.739455-172.17.0.1-866
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:37:34,156 ERROR frappe New Exception collected with id: 2022-05-23 04:37:34.094390-172.17.0.1-4f1
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:38:52,130 ERROR frappe New Exception collected with id: 2022-05-23 04:38:51.530646-172.17.0.1-e9d
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:38:53,399 ERROR frappe New Exception collected with id: 2022-05-23 04:38:53.088944-172.17.0.1-c2b
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:39:00,535 ERROR frappe New Exception collected with id: 2022-05-23 04:39:00.479570-172.17.0.1-a3e
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:39:00,888 ERROR frappe New Exception collected with id: 2022-05-23 04:39:00.781454-172.17.0.1-977
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:39:07,903 ERROR frappe New Exception collected with id: 2022-05-23 04:39:07.715954-172.17.0.1-a9a
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:39:10,334 ERROR frappe New Exception collected with id: 2022-05-23 04:39:09.221088-172.17.0.1-217
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:11,220 ERROR frappe New Exception collected with id: 2022-05-23 04:40:10.900393-172.17.0.1-c08
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:11,802 ERROR frappe New Exception collected with id: 2022-05-23 04:40:11.645155-172.17.0.1-e65
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:13,248 ERROR frappe New Exception collected with id: 2022-05-23 04:40:12.901353-172.17.0.1-ce4
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:14,586 ERROR frappe New Exception collected with id: 2022-05-23 04:40:13.897171-172.17.0.1-88e
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:27,475 ERROR frappe New Exception collected with id: 2022-05-23 04:40:27.148612-172.17.0.1-d48
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:28,242 ERROR frappe New Exception collected with id: 2022-05-23 04:40:27.995904-172.17.0.1-592
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:31,360 ERROR frappe New Exception collected with id: 2022-05-23 04:40:31.044060-172.17.0.1-ab0
+Site: site1.local
+Form Dict: {}
+2022-05-23 04:40:31,661 ERROR frappe New Exception collected with id: 2022-05-23 04:40:31.592856-172.17.0.1-5bf
+Site: site1.local
+Form Dict: {}
+2022-05-23 06:03:58,431 ERROR frappe New Exception collected with id: 2022-05-23 06:03:53.254641-172.17.0.1-62a
+Site: site1.local
+Form Dict: {'doctype': 'Lead', 'fields': '["`tabLead`.`name`","`tabLead`.`owner`","`tabLead`.`creation`","`tabLead`.`modified`","`tabLead`.`modified_by`","`tabLead`.`_user_tags`","`tabLead`.`_comments`","`tabLead`.`_assign`","`tabLead`.`_liked_by`","`tabLead`.`docstatus`","`tabLead`.`parent`","`tabLead`.`parenttype`","`tabLead`.`parentfield`","`tabLead`.`idx`","`tabLead`.`company_name`","`tabLead`.`lead_owner`","`tabLead`.`status`","`tabLead`.`title`","`tabLead`.`image`"]', 'filters': '[]', 'order_by': '`tabLead`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabLead`.`name`', 'with_comment_count': 'true'}
+2022-05-23 06:06:36,845 ERROR frappe New Exception collected with id: 2022-05-23 06:06:35.994237-172.17.0.1-be9
+Site: site1.local
+Form Dict: {'doctype': 'Lead', 'fields': '["`tabLead`.`name`","`tabLead`.`owner`","`tabLead`.`creation`","`tabLead`.`modified`","`tabLead`.`modified_by`","`tabLead`.`_user_tags`","`tabLead`.`_comments`","`tabLead`.`_assign`","`tabLead`.`_liked_by`","`tabLead`.`docstatus`","`tabLead`.`parent`","`tabLead`.`parenttype`","`tabLead`.`parentfield`","`tabLead`.`idx`","`tabLead`.`company_name`","`tabLead`.`lead_owner`","`tabLead`.`status`","`tabLead`.`title`","`tabLead`.`image`"]', 'filters': '[]', 'order_by': '`tabLead`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabLead`.`name`', 'with_comment_count': 'true'}
+2022-05-23 06:07:09,237 ERROR frappe New Exception collected with id: 2022-05-23 06:07:09.152977-172.17.0.1-950
+Site: site1.local
+Form Dict: {}
+2022-05-23 06:07:10,185 ERROR frappe New Exception collected with id: 2022-05-23 06:07:10.144304-172.17.0.1-ed8
+Site: site1.local
+Form Dict: {}
+2022-05-23 06:07:10,318 ERROR frappe New Exception collected with id: 2022-05-23 06:07:10.272296-172.17.0.1-acf
+Site: site1.local
+Form Dict: {'doctype': 'Email Queue', 'with_parent': '1', 'cached_timestamp': ''}
+2022-05-23 06:07:11,880 ERROR frappe New Exception collected with id: 2022-05-23 06:07:11.672727-172.17.0.1-ee6
+Site: site1.local
+Form Dict: {'start': '2022-05-23', 'end': '2022-05-23'}
+2022-05-23 06:07:12,027 ERROR frappe New Exception collected with id: 2022-05-23 06:07:11.968627-172.17.0.1-26e
+Site: site1.local
+Form Dict: {}
+2022-05-23 06:07:12,782 ERROR frappe New Exception collected with id: 2022-05-23 06:07:12.192365-172.17.0.1-44b
+Site: site1.local
+Form Dict: {}
+2022-05-23 06:07:12,793 ERROR frappe New Exception collected with id: 2022-05-23 06:07:12.059427-172.17.0.1-344
+Site: site1.local
+Form Dict: {'fields': '["*"]', 'limit': '20', 'order_by': 'creation desc', 'doctype': 'Notification Log'}
+2022-05-23 06:07:20,556 ERROR frappe New Exception collected with id: 2022-05-23 06:07:20.539528-172.17.0.1-1c9
+Site: site1.local
+Form Dict: {'routes': '[{"creation":"2022-05-23 11:37:10","route":"List/Email Queue/List"}]'}
+2022-05-23 06:09:04,591 ERROR frappe New Exception collected with id: 2022-05-23 06:09:04.523099-172.17.0.1-3c9
+Site: site1.local
+Form Dict: {}
+2022-05-23 06:09:05,559 ERROR frappe New Exception collected with id: 2022-05-23 06:09:05.527174-172.17.0.1-7b6
+Site: site1.local
+Form Dict: {}
+2022-05-23 07:48:37,129 ERROR frappe New Exception collected with id: 2022-05-23 07:48:36.192838-172.17.0.1-564
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"uio","email_id":"uio@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 07:51:15,025 ERROR frappe New Exception collected with id: 2022-05-23 07:51:13.617452-172.17.0.1-509
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"oopi","email_id":"oop@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 07:51:30,225 ERROR frappe New Exception collected with id: 2022-05-23 07:51:29.886566-172.17.0.1-b29
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"oopi","email_id":"oop@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 07:53:12,931 ERROR frappe New Exception collected with id: 2022-05-23 07:53:12.096723-172.17.0.1-ea0
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"oops","email_id":"ops@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 07:54:45,477 ERROR frappe New Exception collected with id: 2022-05-23 07:54:45.143053-172.17.0.1-05e
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"opps","email_id":"oops@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 07:57:29,637 ERROR frappe New Exception collected with id: 2022-05-23 07:57:29.342756-172.17.0.1-110
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"oops","email_id":"oops@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:01:09,339 ERROR frappe New Exception collected with id: 2022-05-23 08:01:09.037178-172.17.0.1-de1
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"oops","email_id":"oops@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:02:28,596 ERROR frappe New Exception collected with id: 2022-05-23 08:02:28.260216-172.17.0.1-47b
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"oops","email_id":"oops@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:11:41,535 ERROR frappe New Exception collected with id: 2022-05-23 08:11:40.906947-172.17.0.1-050
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"poo","email_id":"poo@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:18:27,313 ERROR frappe New Exception collected with id: 2022-05-23 08:18:26.396372-172.17.0.1-f1c
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"op","email_id":"op@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:29:33,695 ERROR frappe New Exception collected with id: 2022-05-23 08:29:33.157271-172.17.0.1-1a8
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"erw","email_id":"erw@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:30:35,512 ERROR frappe New Exception collected with id: 2022-05-23 08:30:35.205643-172.17.0.1-bab
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"erw","email_id":"erw@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:44:24,564 ERROR frappe New Exception collected with id: 2022-05-23 08:44:23.258125-172.17.0.1-f40
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"uyt","email_id":"uyt@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 08:55:22,639 ERROR frappe New Exception collected with id: 2022-05-23 08:55:21.647533-172.17.0.1-67a
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"yu","email_id":"yu@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 09:05:07,151 ERROR frappe New Exception collected with id: 2022-05-23 09:05:06.506514-172.17.0.1-ecf
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"hjk"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 09:09:01,418 ERROR frappe New Exception collected with id: 2022-05-23 09:09:00.025302-172.17.0.1-2cd
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"lkj"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-23 09:13:20,913 ERROR frappe New Exception collected with id: 2022-05-23 09:13:20.062523-172.17.0.1-df9
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Lead","name":"new-lead-1","__islocal":1,"__unsaved":1,"owner":"Administrator","organization_lead":0,"naming_series":"CRM-LEAD-.YYYY.-","lead_owner":"ashishverma723@gmail.com","status":"Lead","address_type":"Billing","country":"India","type":"","request_type":"","language":"en-US","unsubscribed":0,"blog_subscriber":0,"lead_name":"jkj"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-27 07:30:28,898 ERROR frappe New Exception collected with id: 2022-05-27 07:30:27.898921-172.17.0.1-442
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:30:37,086 ERROR frappe New Exception collected with id: 2022-05-27 07:30:37.082148-172.17.0.1-7f9
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:31:35,439 ERROR frappe New Exception collected with id: 2022-05-27 07:31:33.987251-172.17.0.1-51a
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:32:46,351 ERROR frappe New Exception collected with id: 2022-05-27 07:32:45.923245-172.17.0.1-222
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:33:28,158 ERROR frappe New Exception collected with id: 2022-05-27 07:33:27.987256-172.17.0.1-f93
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:35:30,994 ERROR frappe New Exception collected with id: 2022-05-27 07:35:30.971465-172.17.0.1-c2c
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:38:27,761 ERROR frappe New Exception collected with id: 2022-05-27 07:38:26.804379-172.17.0.1-de3
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:38:36,658 ERROR frappe New Exception collected with id: 2022-05-27 07:38:36.475515-172.17.0.1-04c
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:45:32,909 ERROR frappe New Exception collected with id: 2022-05-27 07:45:31.980884-172.17.0.1-02f
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:45:55,818 ERROR frappe New Exception collected with id: 2022-05-27 07:45:55.650085-172.17.0.1-1bb
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:52:54,496 ERROR frappe New Exception collected with id: 2022-05-27 07:52:53.228418-172.17.0.1-63a
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 07:53:04,651 ERROR frappe New Exception collected with id: 2022-05-27 07:53:04.412021-172.17.0.1-4cb
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:01:49,386 ERROR frappe New Exception collected with id: 2022-05-27 08:01:48.459685-172.17.0.1-e5b
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:07:14,875 ERROR frappe New Exception collected with id: 2022-05-27 08:07:14.157519-172.17.0.1-341
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:07:34,760 ERROR frappe New Exception collected with id: 2022-05-27 08:07:34.753002-172.17.0.1-af7
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:07:43,535 ERROR frappe New Exception collected with id: 2022-05-27 08:07:43.321947-172.17.0.1-fbe
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:09:13,772 ERROR frappe New Exception collected with id: 2022-05-27 08:09:13.090194-172.17.0.1-d6d
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:09:20,300 ERROR frappe New Exception collected with id: 2022-05-27 08:09:20.113162-172.17.0.1-b89
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:13:49,840 ERROR frappe New Exception collected with id: 2022-05-27 08:13:49.228481-172.17.0.1-9f4
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:22:59,127 ERROR frappe New Exception collected with id: 2022-05-27 08:22:58.157503-172.17.0.1-78a
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:23:16,833 ERROR frappe New Exception collected with id: 2022-05-27 08:23:16.353079-172.17.0.1-8eb
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:23:32,099 ERROR frappe New Exception collected with id: 2022-05-27 08:23:32.093415-172.17.0.1-419
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:23:37,343 ERROR frappe New Exception collected with id: 2022-05-27 08:23:37.067073-172.17.0.1-e6e
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:25:08,767 ERROR frappe New Exception collected with id: 2022-05-27 08:25:07.562654-172.17.0.1-a50
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:25:09,351 ERROR frappe New Exception collected with id: 2022-05-27 08:25:09.347137-172.17.0.1-9ab
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:25:43,311 ERROR frappe New Exception collected with id: 2022-05-27 08:25:43.282436-172.17.0.1-e07
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:26:46,170 ERROR frappe New Exception collected with id: 2022-05-27 08:26:44.870597-172.17.0.1-8ba
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:26:53,464 ERROR frappe New Exception collected with id: 2022-05-27 08:26:53.272766-172.17.0.1-1cb
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:27:48,444 ERROR frappe New Exception collected with id: 2022-05-27 08:27:47.792749-172.17.0.1-9b2
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:38:17,244 ERROR frappe New Exception collected with id: 2022-05-27 08:38:14.586986-172.17.0.1-647
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:38:30,110 ERROR frappe New Exception collected with id: 2022-05-27 08:38:29.853536-172.17.0.1-233
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:40:23,647 ERROR frappe New Exception collected with id: 2022-05-27 08:40:23.077740-172.17.0.1-d69
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:40:30,317 ERROR frappe New Exception collected with id: 2022-05-27 08:40:30.120955-172.17.0.1-4f5
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:47:18,133 ERROR frappe New Exception collected with id: 2022-05-27 08:47:16.464430-172.17.0.1-d09
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:50:41,709 ERROR frappe New Exception collected with id: 2022-05-27 08:50:41.022834-172.17.0.1-3a9
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:56:57,458 ERROR frappe New Exception collected with id: 2022-05-27 08:56:56.464955-172.17.0.1-549
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:58:17,784 ERROR frappe New Exception collected with id: 2022-05-27 08:58:17.118431-172.17.0.1-1ab
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:58:23,642 ERROR frappe New Exception collected with id: 2022-05-27 08:58:23.378973-172.17.0.1-407
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 08:59:15,001 ERROR frappe New Exception collected with id: 2022-05-27 08:59:13.750321-172.17.0.1-543
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 09:00:44,965 ERROR frappe New Exception collected with id: 2022-05-27 09:00:43.571066-172.17.0.1-b66
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_dup.check_for_mail'}
+2022-05-27 09:03:32,899 ERROR frappe New Exception collected with id: 2022-05-27 09:03:31.740387-172.17.0.1-fd4
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:05:42,892 ERROR frappe New Exception collected with id: 2022-05-27 09:05:41.308856-172.17.0.1-88f
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:06:07,025 ERROR frappe New Exception collected with id: 2022-05-27 09:06:06.828500-172.17.0.1-aa5
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:10:52,789 ERROR frappe New Exception collected with id: 2022-05-27 09:10:50.916307-172.17.0.1-173
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:39:42,699 ERROR frappe New Exception collected with id: 2022-05-27 09:39:41.808458-172.17.0.1-732
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:40:21,950 ERROR frappe New Exception collected with id: 2022-05-27 09:40:21.360580-172.17.0.1-0cc
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:41:27,890 ERROR frappe New Exception collected with id: 2022-05-27 09:41:26.912938-172.17.0.1-3a4
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:42:35,339 ERROR frappe New Exception collected with id: 2022-05-27 09:42:34.821003-172.17.0.1-2ee
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:44:31,567 ERROR frappe New Exception collected with id: 2022-05-27 09:44:31.508169-172.17.0.1-550
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:44:45,605 ERROR frappe New Exception collected with id: 2022-05-27 09:44:43.028201-172.17.0.1-2a8
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:45:55,526 ERROR frappe New Exception collected with id: 2022-05-27 09:45:54.822294-172.17.0.1-214
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:48:13,112 ERROR frappe New Exception collected with id: 2022-05-27 09:48:13.015110-172.17.0.1-550
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:49:56,547 ERROR frappe New Exception collected with id: 2022-05-27 09:49:51.899360-127.0.0.1-8bd
+Site: site1.local
+Form Dict: {}
+2022-05-27 09:51:25,976 ERROR frappe New Exception collected with id: 2022-05-27 09:51:24.484950-172.17.0.1-0fd
+Site: site1.local
+Form Dict: {'email_id': 'asma@gmail.com', 'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:53:37,695 ERROR frappe New Exception collected with id: 2022-05-27 09:53:36.980846-172.17.0.1-a58
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:55:09,129 ERROR frappe New Exception collected with id: 2022-05-27 09:55:08.554400-172.17.0.1-028
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:55:57,267 ERROR frappe New Exception collected with id: 2022-05-27 09:55:56.941515-172.17.0.1-ab5
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:58:16,207 ERROR frappe New Exception collected with id: 2022-05-27 09:58:15.012963-172.17.0.1-db1
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 09:59:45,594 ERROR frappe New Exception collected with id: 2022-05-27 09:59:45.278063-172.17.0.1-ae0
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:00:55,360 ERROR frappe New Exception collected with id: 2022-05-27 10:00:54.664393-172.17.0.1-1bd
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:02:11,485 ERROR frappe New Exception collected with id: 2022-05-27 10:02:09.750482-172.17.0.1-84f
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:02:13,758 ERROR frappe New Exception collected with id: 2022-05-27 10:02:13.355137-172.17.0.1-5dc
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:05:07,773 ERROR frappe New Exception collected with id: 2022-05-27 10:05:04.667928-172.17.0.1-5b7
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:05:11,416 ERROR frappe New Exception collected with id: 2022-05-27 10:05:11.111843-172.17.0.1-a14
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:10:49,443 ERROR frappe New Exception collected with id: 2022-05-27 10:10:48.234613-172.17.0.1-483
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:11:08,252 ERROR frappe New Exception collected with id: 2022-05-27 10:11:07.867316-172.17.0.1-aa1
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead_ap.check_for_mail'}
+2022-05-27 10:28:56,647 ERROR frappe New Exception collected with id: 2022-05-27 10:28:54.582267-172.17.0.1-396
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead.lead_dup.check_for_mail'}
+2022-05-27 10:29:19,062 ERROR frappe New Exception collected with id: 2022-05-27 10:29:18.179097-172.17.0.1-638
+Site: site1.local
+Form Dict: {'cmd': 'core_erp.customization.lead.lead_dup.check_for_mail'}
+2022-05-27 12:39:40,432 ERROR frappe New Exception collected with id: 2022-05-27 12:39:36.290068-172.17.0.1-f8b
+Site: site1.local
+Form Dict: {'email_id': 'ashishverma723@gmail.com', 'notes': 'hello ashish verma', 'cmd': 'core_erp.customization.lead.lead_dup.check_for_mail'}
+2022-05-27 12:44:32,753 ERROR frappe New Exception collected with id: 2022-05-27 12:44:31.318737-172.17.0.1-2ff
+Site: site1.local
+Form Dict: {'email_id': 'ashishverma723@gmail.com', 'notes': 'hello ashish verma', 'cmd': 'core_erp.customization.lead.lead_dup.check_for_mail'}
